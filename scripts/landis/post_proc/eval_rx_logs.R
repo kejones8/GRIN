@@ -1,0 +1,1 @@
+#this script takes in RX logs from landis runs 
