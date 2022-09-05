@@ -3,9 +3,10 @@
 library(dplyr)
 library(ggplot2)
 
-high<-read.csv("output_data\\highfire_1\\scrapple-events-log.csv")
-inter<-read.csv("output_data\\interfire_1\\scrapple-events-log.csv")
-low<-read.csv("output_data\\lowfire_2\\scrapple-events-log.csv")
+#when/if run this on local laptop, need to change paths...exclude "LANDIS_Sapps_Active_v1_5\\"
+high<-read.csv("landis_runs\\Highfire_1\\LANDIS_Sapps_Active_v1_5\\scrapple-events-log.csv")
+inter<-read.csv("landis_runs\\Interfire_1\\LANDIS_Sapps_Active_v1_5\\scrapple-events-log.csv")
+low<-read.csv("landis_runs\\Lowfire_2\\LANDIS_Sapps_Active_v1_5\\scrapple-events-log.csv")
 
 
 #create fire use column for disitinguishing in plots
